@@ -4,7 +4,6 @@ var fs = require("fs");
 //创建服务器实例
 var server = http.createServer();
 //注册事件，当客户端请求时，执行回调函数
-
 server.on("request",function(req, res){
     var url = req.url;
     var filePath = 'resource/index.html';  
