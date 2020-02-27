@@ -1,5 +1,5 @@
-var fs = require("fs");
-
+var fs = require('fs');
+var template = require('art-template')
 fs.readdir('resource/',function(err, files){
     if(err)
     {
